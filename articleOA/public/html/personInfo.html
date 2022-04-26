@@ -1,0 +1,59 @@
+<script type="text/html" id="personTem">
+
+    <div class="personInfo_box">
+        <!-- 标题 -->
+        <div class="title">{{title}}</div>
+        <div class="updateUser">
+            <form class="layui-form formUser" action="" lay-filter="formUser">
+                <input type="hidden" name="id" value="">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">{{lableStr1}}</label>
+                    <div class="layui-input-block">
+                        {{if bol}}
+                            <!-- 重置密码 -->
+                            <input type="password" name="title" required lay-verify="required" placeholder="请输入{{lableStr1}}"
+                            autocomplete="off" class="layui-input oldPwd">
+                            {{else}}
+                            <!-- readonly 可读 -->
+                            <input type="text" name="username" readonly required lay-verify="required|pass"
+                                autocomplete="off" class="layui-input">
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">{{lableStr2}}</label>
+                    <div class="layui-input-block">
+                        {{if bol}}
+                            <input type="password" name="nickname" required lay-verify="required|pass|newPwd1" placeholder="请输入{{lableStr2}}"
+                            autocomplete="off" class="layui-input newPwd1">
+                            {{else}}
+                            <input type="text" name="nickname" required lay-verify="required" placeholder="请输入{{lableStr2}}"
+                                autocomplete="off" class="layui-input">
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">{{lableStr3}}</label>
+                    <div class="layui-input-block">
+                        {{if bol}}
+                            <!-- 重置密码 -->
+                            <input type="password" name="title" required lay-verify="required|pass|newPwd2" placeholder="请{{lableStr3}}"
+                            autocomplete="off" class="layui-input newPwd2">
+                            {{else}}
+                            <input type="text" name="email" required lay-verify="required|email" placeholder="请输入{{lableStr3}}"
+                            autocomplete="off" class="layui-input">
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit="" lay-filter="formDemo">{{btn}}</button>
+                        <button type="reset" class="layui-btn layui-btn-primary resetBtn">重置</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    
+    </div>
+
+</script>

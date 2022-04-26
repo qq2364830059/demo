@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>layout 管理系统大布局 - Layui</title>
+    <link rel="stylesheet" href="../css/layui.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../cropper/cropper.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="layui-layout layui-layout-admin war_mq">
+        <div class="layui-header">
+            <div class="layui-logo layui-hide-xs nav_mq">layout demo</div>
+
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item layui-hide layui-show-md-inline-block">
+                    <a href="javascript:;">
+                        <img src="../img/header_img.jpg" class="layui-nav-img header_img imgArr">
+                        个人中心
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd class="InfoBtn"><a href="javascript:;">基本资料</a></dd>
+                        <dd class="updateImg"><a href="javascript:;">更换头像</a></dd>
+                        <dd class="resetPwd"><a href="javascript:;">重置密码</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
+                    <a href="javascript:;" class="exitBtn">
+                        <span class="iconfont icon-tuichu"></span>
+                        退出
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="layui-side layui-bg-black">
+            <div class="layui-side-scroll">
+                <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+                <ul class="layui-nav layui-nav-tree artice_box_mq" lay-filter="test" lay-shrink="all">
+                    <li class="layui-nav-item artice_user">
+                        <img src="../img/header_img.jpg" class="layui-nav-img article_img imgArr">
+                        欢迎<span class="userName">xxx</span>
+                    </li>
+                    <li class="layui-nav-item layui-this">
+                        <a href="javascript:;" class="index_btn">
+                            <span class="iconfont icon-home"></span>
+                            &nbsp;首页
+                        </a>
+                    </li>
+                    <li class="layui-nav-item layui-nav-itemed fontMq">
+                        <a class="" href="javascript:;"> <span class="iconfont icon-16"></span>&nbsp;&nbsp;文章管理</a>
+                        <dl class="layui-nav-child">
+                            <dd class="active_item"><a href="javascript:;" class="articleType"><i
+                                        class="layui-icon layui-icon-app"></i>&nbsp;&nbsp;文章类别</a>
+                            </dd>
+                            <dd class="article_list_item active_item"><a href="javascript:;" class="article_list"><i
+                                        class="layui-icon layui-icon-app"></i>&nbsp;&nbsp;文章列表</a>
+                            </dd>
+                            <dd class="active_item"><a href="javascript:;" class="article_send"><i
+                                        class="layui-icon layui-icon-app"></i>&nbsp;&nbsp;发表文章</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="layui-nav-item fontMq">
+                        <a href="javascript:;"><span class="iconfont icon-user"></span>&nbsp;&nbsp;个人中心</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" class="InfoBtn"><i
+                                        class="layui-icon layui-icon-app"></i>&nbsp;&nbsp;基本资料</a>
+                            </dd>
+                            <dd><a href="javascript:;" class="updateImg"><i
+                                        class="layui-icon layui-icon-app"></i>&nbsp;&nbsp;更换头像</a>
+                            </dd>
+                            <dd><a href="javascript:;" class="resetPwd"><i
+                                        class="layui-icon layui-icon-app"></i>&nbsp;&nbsp;重置密码</a>
+                            </dd>
+                        </dl>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- 内容主体区域 -->
+        <div class="layui-body content_box_mq">
+
+        </div>
+
+        <div class="layui-footer">
+            <!-- 底部固定区域 -->
+            底部固定区域
+        </div>
+    </div>
+    <script src="../layui.js"></script>
+    <script src="../js/echarts.js"></script>
+    <!-- qs属于axios里面的，因为使用的不是框架所以另外引入 -->
+    <script src="../js/qs.min.js"></script>
+    <script src="../js/axios.js"></script>
+    <script src="../js/template-web.js"></script>
+    <script src="../js/jquery3.5.js"></script>
+    <script src="../cropper/Cropper.js"></script>
+    <script src="../cropper/jquery-cropper.js"></script>
+    <script src="../js/index.js"></script>
+
+</body>
+<script>
+
+
+</script>
+
+</html>

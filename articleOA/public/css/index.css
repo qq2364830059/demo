@@ -1,0 +1,270 @@
+@charset "utf-8";
+.war_mq .nav_mq {
+  color: white;
+}
+.war_mq .artice_box_mq .artice_user {
+  text-align: center;
+  line-height: 72px;
+}
+.war_mq .artice_box_mq .artice_user .userName {
+  margin-left: 5px;
+}
+.war_mq .artice_box_mq .fontMq .layui-icon {
+  margin-left: 15px;
+}
+.war_mq .content_box_mq {
+  background-color: #f2f3f5;
+  overflow: auto;
+}
+.war_mq .content_box_mq .content_index .content_top_mq {
+  padding: 0;
+}
+.war_mq .content_box_mq .content_index .content_top_mq .header_top {
+  margin: 20px 0;
+}
+.war_mq .content_box_mq .content_index .content_top_mq .header_top .layui-col-sm3 {
+  padding: 0 15px;
+  text-align: center;
+}
+.war_mq .content_box_mq .content_index .content_top_mq .header_top .layui-col-sm3 .txt_top {
+  font-size: 0;
+  background-color: white;
+}
+.war_mq .content_box_mq .content_index .content_top_mq .header_top .layui-col-sm3 .txt_top .num_txt {
+  line-height: 76px;
+  font-size: 50px;
+}
+.war_mq .content_box_mq .content_index .content_top_mq .header_top .layui-col-sm3 .txt_top .right_txt {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.war_mq .content_box_mq .content_index .content_top_mq .header_top .layui-col-sm3 .txt_top .color_purple {
+  color: #83a2ed;
+}
+.war_mq .content_box_mq .content_index .content_top_mq .header_top .layui-col-sm3 .txt_top .color_blue {
+  color: #6ac6e2;
+}
+.war_mq .content_box_mq .content_index .content_top_mq .header_top .layui-col-sm3 .txt_top .color_bule2 {
+  color: #5fd9de;
+}
+.war_mq .content_box_mq .content_index .content_top_mq .header_top .layui-col-sm3 .txt_top .color_green {
+  color: #58d88e;
+}
+.war_mq .content_box_mq .content_index .content_top_mq .header_top .layui-col-sm3 .txt_bottom {
+  line-height: 24px;
+  background-color: #e5e5e5;
+}
+.war_mq .content_box_mq .content_index .content_middle_mq {
+  margin-bottom: 20px;
+}
+.war_mq .content_box_mq .content_index .content_middle_mq .padding_row {
+  padding: 0 15px;
+}
+.war_mq .content_box_mq .content_index .content_middle_mq .padding_row .middle_box1 {
+  width: 100%;
+  height: 350px;
+  background-color: white;
+}
+.war_mq .content_box_mq .content_index .content_middle_mq .padding_row .middle_box2 {
+  width: 100%;
+  height: 350px;
+  background-color: white;
+}
+.war_mq .content_box_mq .content_index .content_bottom_mq {
+  margin-bottom: 20px;
+}
+.war_mq .content_box_mq .content_index .content_bottom_mq #bottom_box_mq {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+}
+.war_mq .content_box_mq .articleType_box {
+  margin: 15px;
+  background-color: white;
+}
+.war_mq .content_box_mq .articleType_box .title {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f6f6f6;
+}
+.war_mq .content_box_mq .articleType_box .title .left {
+  line-height: 43px;
+}
+.war_mq .content_box_mq .articleType_box .content_box {
+  padding: 10px 15px;
+}
+.war_mq .content_box_mq .articleType_box .content_box .table_title tr th {
+  background-color: #e6e6e6;
+}
+.war_mq .content_box_mq .articleList_box {
+  margin: 15px;
+  background-color: white;
+}
+.war_mq .content_box_mq .articleList_box .list_title {
+  padding: 0 15px;
+  line-height: 43px;
+  border-bottom: 1px solid #f6f6f6;
+}
+.war_mq .content_box_mq .articleList_box .list_content {
+  padding: 10px 15px;
+}
+.war_mq .content_box_mq .articleList_box .list_content .table_title tr th {
+  background-color: #e6e6e6;
+}
+.war_mq .content_box_mq .articleSend_box {
+  margin: 15px;
+  background-color: white;
+}
+.war_mq .content_box_mq .articleSend_box .title {
+  padding: 0 15px;
+  line-height: 43px;
+  border-bottom: 1px solid #f6f6f6;
+}
+.war_mq .content_box_mq .articleSend_box .content {
+  padding: 10px 15px;
+}
+.war_mq .content_box_mq .articleSend_box .content .cover_box {
+  display: flex;
+}
+.war_mq .content_box_mq .articleSend_box .content .cover_box .cover_left .coverImg {
+  width: 400px;
+  height: 280px;
+}
+.war_mq .content_box_mq .articleSend_box .content .cover_box .cover_right {
+  margin-left: 20px;
+}
+.war_mq .content_box_mq .mq_box {
+  /* 封面容器的样式 */
+  /* 左侧裁剪区域的样式 */
+  /* 右侧盒子的样式 */
+  /* 预览区域的样式 */
+}
+.war_mq .content_box_mq .mq_box .cover-box {
+  display: flex;
+}
+.war_mq .content_box_mq .mq_box .cover-left {
+  width: 400px;
+  height: 280px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.war_mq .content_box_mq .mq_box .cover-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.war_mq .content_box_mq .mq_box .img-preview {
+  width: 200px;
+  height: 140px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.war_mq .content_box_mq .personInfo_box {
+  margin: 15px;
+  background-color: white;
+}
+.war_mq .content_box_mq .personInfo_box .title {
+  padding: 0 15px;
+  line-height: 43px;
+  border-bottom: 1px solid #f6f6f6;
+}
+.war_mq .content_box_mq .personInfo_box .updateUser {
+  padding: 10px 15px;
+}
+.war_mq .content_box_mq .personInfo_box .updateUser .formUser {
+  width: 500px;
+}
+.war_mq .content_box_mq .updateHead_box {
+  background-color: white;
+  margin: 15px;
+}
+.war_mq .content_box_mq .updateHead_box .update_title {
+  line-height: 43px;
+  border-bottom: 1px solid #f6f6f6;
+  padding: 0 15px;
+}
+.war_mq .content_box_mq .updateHead_box .update_img {
+  height: 350px;
+  width: 350px;
+  margin: 10px 15px 20px;
+  background-color: #efefef;
+}
+.war_mq .content_box_mq .updateHead_box .update_img img {
+  width: 100%;
+  height: 100%;
+}
+.war_mq .content_box_mq .updateHead_box .update_btn {
+  padding: 0 15px 15px;
+}
+.war_mq .content_box_mq .layui-card-body {
+  background-color: white;
+  /* 设置卡片主体区域的宽度 */
+  /* 设置按钮行的样式 */
+  /* 设置裁剪区域的样式 */
+  /* 设置第一个预览区域的样式 */
+  /* 设置第二个预览区域的样式 */
+  /* 设置预览区域下方文本的样式 */
+  /* 设置图片行的样式 */
+  /* 设置 preview-box 区域的的样式 */
+  /* 设置 img-preview 区域的样式 */
+}
+.war_mq .content_box_mq .layui-card-body .layui-card-body {
+  width: 500px;
+}
+.war_mq .content_box_mq .layui-card-body .row2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.war_mq .content_box_mq .layui-card-body .cropper-box {
+  width: 350px;
+  height: 350px;
+  background-color: cyan;
+  overflow: hidden;
+}
+.war_mq .content_box_mq .layui-card-body .w100 {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+.war_mq .content_box_mq .layui-card-body .w50 {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  margin-top: 50px;
+}
+.war_mq .content_box_mq .layui-card-body .size {
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+.war_mq .content_box_mq .layui-card-body .row1 {
+  display: flex;
+}
+.war_mq .content_box_mq .layui-card-body .preview-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+.war_mq .content_box_mq .layui-card-body .img-preview {
+  overflow: hidden;
+  border-radius: 50%;
+}
+.war_mq .content_box_mq .layui-card-body .file {
+  display: none;
+}
+body .alter_box {
+  width: 500px;
+  height: 250px;
+  background-color: white;
+}
+body .alter_box .layui-form {
+  padding: 15px 30px 0 0;
+}
+body .txt {
+  margin-left: 35px;
+}

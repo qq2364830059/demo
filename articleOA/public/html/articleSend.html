@@ -1,0 +1,71 @@
+<div class="articleSend_box">
+    <div class="title">写文章</div>
+    <div class="content">
+        <form class="layui-form form_mq" action="">
+            <!-- 标题 -->
+            <div class="layui-form-item">
+                <label class="layui-form-label">文章标题</label>
+                <div class="layui-input-block">
+                    <input type="text" name="title" required lay-verify="required" placeholder="请输入文章标题"
+                        autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <!-- 文章类别 -->
+            <div class="layui-form-item">
+                <label class="layui-form-label">文章类别</label>
+                <div class="layui-input-block">
+                    <select name="cate_id" lay-verify="required" class="select_type">
+                        <!-- <option value="0">北京</option>
+                        <option value="1">上海</option>
+                        <option value="2">广州</option>
+                        <option value="3">深圳</option>
+                        <option value="4">杭州</option> -->
+                    </select>
+                </div>
+            </div>
+            <!-- 文本编辑器 -->
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">文本域</label>
+                <div class="layui-input-block body_txt">
+                    <textarea name="content" placeholder="请输入内容" class="layui-textarea" id="editTxt2"></textarea>
+                </div>
+            </div>
+            <!-- 文章封面 -->
+            <div class="layui-form-item mq_box">
+                <!-- 左侧的 label -->
+                <label class="layui-form-label">文章封面</label>
+                <!-- 选择封面区域 -->
+                <div class="layui-input-block cover-box">
+                    <!-- 左侧裁剪区域 -->
+                    <div class="cover-left">
+                        <img id="image" src="../img/cover.jpg" alt="" />
+                    </div>
+                    <!-- 右侧预览区域和选择封面区域 -->
+                    <div class="cover-right">
+                        <input type="file" class="file" style="display: none;">
+                        <!-- 选择封面按钮 -->
+                        <button type="button" class="layui-btn layui-btn-danger selectBtn">选择封面</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--按钮  -->
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn btn_pub" lay-submit="" lay-filter="formDemo">发布</button>
+                    <button class="layui-btn layui-btn-primary caogaoBtn" lay-submit=""
+                        lay-filter="formDemo">存为草稿</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+<script type="text/html" id="typeTmp">
+    <option value=""></option>
+    {{each data}}
+        <option value="{{$value.Id}}">{{$value.name}}</option>
+    {{/each}}
+</script>

@@ -1,0 +1,57 @@
+@charset "utf-8";
+.war {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/login_bg.jpg);
+  background-size: cover;
+}
+.war .content_login .fixed_box {
+  width: 400px;
+  height: 310px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  text-align: center;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+.war .content_login .fixed_box h1 {
+  line-height: 60px;
+}
+.war .content_login .fixed_box .login_mq .layui-form-item .layui-icon-username,
+.war .content_login .fixed_box .login_mq2 .layui-form-item .layui-icon-username,
+.war .content_login .fixed_box .login_mq .layui-form-item .layui-icon-password,
+.war .content_login .fixed_box .login_mq2 .layui-form-item .layui-icon-password {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+}
+.war .content_login .fixed_box .login_mq .layui-form-item .layui-input,
+.war .content_login .fixed_box .login_mq2 .layui-form-item .layui-input {
+  padding-left: 30px;
+}
+.war .content_login .fixed_box .login_mq .layui-form-item .layui-btn-normal,
+.war .content_login .fixed_box .login_mq2 .layui-form-item .layui-btn-normal {
+  width: 100%;
+}
+.war .content_login .fixed_box .login_mq .txt_box,
+.war .content_login .fixed_box .login_mq2 .txt_box {
+  text-align: left;
+}
+.war .content_login .fixed_box .login_mq .txt_box .txt,
+.war .content_login .fixed_box .login_mq2 .txt_box .txt {
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.war .content_login .fixed_box .login_mq .txt_box .txt:hover,
+.war .content_login .fixed_box .login_mq2 .txt_box .txt:hover {
+  color: #777;
+}
+.war .content_login .fixed_box .login_mq2 {
+  display: none;
+}

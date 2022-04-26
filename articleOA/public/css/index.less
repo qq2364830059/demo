@@ -1,0 +1,397 @@
+@charset "utf-8";
+
+
+
+
+.war_mq {
+
+    .nav_mq {
+        color: white;
+    }
+
+
+    // 侧边栏
+    .artice_box_mq {
+        .artice_user {
+            text-align : center;
+            line-height: 72px;
+
+            .userName {
+                margin-left: 5px;
+            }
+        }
+
+        .fontMq {
+            .layui-icon {
+                margin-left: 15px;
+            }
+        }
+
+
+    }
+
+    // 内容区
+    .content_box_mq {
+        background-color: #f2f3f5;
+        overflow        : auto;
+
+        // 首页内容区
+        .content_index {
+
+            .content_top_mq {
+                padding: 0;
+
+                .header_top {
+                    margin: 20px 0;
+
+                    .layui-col-sm3 {
+                        padding   : 0 15px;
+                        text-align: center;
+
+                        .txt_top {
+                            font-size       : 0;
+                            background-color: white;
+
+                            .num_txt {
+                                line-height: 76px;
+                                font-size  : 50px;
+                            }
+
+                            .right_txt {
+                                margin-left: 10px;
+                                font-size  : 14px;
+                            }
+
+                            .color_purple {
+                                color: #83a2ed;
+                            }
+
+                            .color_blue {
+                                color: #6ac6e2;
+                            }
+
+                            .color_bule2 {
+                                color: #5fd9de;
+                            }
+
+                            .color_green {
+                                color: #58d88e;
+                            }
+                        }
+
+
+                        .txt_bottom {
+                            line-height     : 24px;
+                            background-color: #e5e5e5;
+                        }
+                    }
+                }
+            }
+
+            .content_middle_mq {
+                margin-bottom: 20px;
+
+                .padding_row {
+                    padding: 0 15px;
+
+                    .middle_box1 {
+                        width           : 100%;
+                        height          : 350px;
+                        background-color: white;
+                    }
+
+                    .middle_box2 {
+                        width           : 100%;
+                        height          : 350px;
+                        background-color: white;
+                    }
+                }
+            }
+
+            .content_bottom_mq {
+                margin-bottom: 20px;
+
+                #bottom_box_mq {
+                    width           : 100%;
+                    height          : 400px;
+                    background-color: white;
+                }
+            }
+        }
+
+        // 文章类别
+        .articleType_box {
+            margin          : 15px;
+            background-color: white;
+
+            // 标题
+            .title {
+                padding        : 0 15px;
+                display        : flex;
+                justify-content: space-between;
+                align-items    : center;
+                border-bottom  : 1px solid #f6f6f6;
+
+                .left {
+                    line-height: 43px;
+                }
+
+            }
+
+            // 内容区
+            .content_box {
+                padding: 10px 15px;
+
+                .table_title {
+                    tr {
+                        th {
+                            background-color: #e6e6e6;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        // 文章列表
+        .articleList_box {
+            margin          : 15px;
+            background-color: white;
+
+            // 标题
+            .list_title {
+                padding      : 0 15px;
+                line-height  : 43px;
+                border-bottom: 1px solid #f6f6f6;
+            }
+
+            // 内容区
+            .list_content {
+                padding: 10px 15px;
+
+                .table_title {
+                    tr {
+                        th {
+                            background-color: #e6e6e6;
+                        }
+                    }
+                }
+            }
+        }
+
+        // 发表文章
+        .articleSend_box {
+            margin          : 15px;
+            background-color: white;
+
+            // 标题
+            .title {
+                padding      : 0 15px;
+                line-height  : 43px;
+                border-bottom: 1px solid #f6f6f6;
+            }
+
+            // 内容区
+            .content {
+                padding: 10px 15px;
+
+                .cover_box {
+                    display: flex;
+
+                    .cover_left {
+
+                        .coverImg {
+                            width : 400px;
+                            height: 280px;
+                        }
+                    }
+
+                    .cover_right {
+                        margin-left: 20px;
+                    }
+
+                }
+
+
+
+            }
+        }
+
+        .mq_box {
+
+            /* 封面容器的样式 */
+            .cover-box {
+                display: flex;
+            }
+
+            /* 左侧裁剪区域的样式 */
+            .cover-left {
+                width       : 400px;
+                height      : 280px;
+                overflow    : hidden;
+                margin-right: 20px;
+            }
+
+            /* 右侧盒子的样式 */
+            .cover-right {
+                display       : flex;
+                flex-direction: column;
+                align-items   : center;
+            }
+
+            /* 预览区域的样式 */
+            .img-preview {
+                width           : 200px;
+                height          : 140px;
+                background-color: #ccc;
+                margin-bottom   : 20px;
+                overflow        : hidden;
+            }
+        }
+
+
+        // 基本资料和重置密码
+        .personInfo_box {
+            margin          : 15px;
+            background-color: white;
+
+            .title {
+                padding      : 0 15px;
+                line-height  : 43px;
+                border-bottom: 1px solid #f6f6f6;
+            }
+
+            .updateUser {
+                padding: 10px 15px;
+
+                .formUser {
+                    width: 500px;
+                }
+            }
+        }
+
+
+        // 更换头像
+        .updateHead_box {
+            background-color: white;
+            margin          : 15px;
+
+            .update_title {
+                line-height  : 43px;
+                border-bottom: 1px solid #f6f6f6;
+                padding      : 0 15px;
+
+            }
+
+            .update_img {
+                height          : 350px;
+                width           : 350px;
+                margin          : 10px 15px 20px;
+                background-color: #efefef;
+
+                img {
+                    width : 100%;
+                    height: 100%;
+                }
+            }
+
+            .update_btn {
+                padding: 0 15px 15px;
+            }
+        }
+
+        .layui-card-body {
+            background-color: white;
+
+            /* 设置卡片主体区域的宽度 */
+            .layui-card-body {
+                width: 500px;
+            }
+
+            /* 设置按钮行的样式 */
+            .row2 {
+                display        : flex;
+                justify-content: flex-start;
+                margin-top     : 20px;
+            }
+
+            /* 设置裁剪区域的样式 */
+            .cropper-box {
+                width           : 350px;
+                height          : 350px;
+                background-color: cyan;
+                overflow        : hidden;
+            }
+
+            /* 设置第一个预览区域的样式 */
+            .w100 {
+                width           : 100px;
+                height          : 100px;
+                background-color: gray;
+            }
+
+            /* 设置第二个预览区域的样式 */
+            .w50 {
+                width           : 50px;
+                height          : 50px;
+                background-color: gray;
+                margin-top      : 50px;
+            }
+
+            /* 设置预览区域下方文本的样式 */
+            .size {
+                font-size : 12px;
+                color     : gray;
+                text-align: center;
+            }
+
+            /* 设置图片行的样式 */
+            .row1 {
+                display: flex;
+            }
+
+            /* 设置 preview-box 区域的的样式 */
+            .preview-box {
+                display       : flex;
+                flex-direction: column;
+                flex          : 1;
+                align-items   : center;
+            }
+
+            /* 设置 img-preview 区域的样式 */
+            .img-preview {
+                overflow     : hidden;
+                border-radius: 50%;
+            }
+
+            .file {
+                display: none;
+            }
+        }
+
+
+
+    }
+}
+
+
+// 用来定义layui自定义弹窗
+body {
+
+    //文章类别  弹窗
+    .alter_box {
+        width           : 500px;
+        height          : 250px;
+        background-color: white;
+
+        .layui-form {
+            padding: 15px 30px 0 0;
+        }
+    }
+
+    // 删除按钮的
+    .txt {
+        margin-left: 35px;
+    }
+}

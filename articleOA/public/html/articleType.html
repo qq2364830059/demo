@@ -1,0 +1,87 @@
+<div class="articleType_box">
+    <div class="title ">
+        <div class="left">文章类别管理</div>
+        <button type="button" class="layui-btn layui-btn-normal layui-btn-sm addBtn">添加分类</button>
+    </div>
+    <div class="layui-form content_box">
+        <table class="layui-table">
+            <!-- 列的宽度 -->
+            <colgroup>
+                <col width="150">
+                <col>
+                <col>
+                <col width="200">
+            </colgroup>
+            <thead class="table_title">
+                <tr>
+                    <th>序号</th>
+                    <th>分类名称</th>
+                    <th>分类别名</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody class="t_body">
+                <!-- <tr>
+                    <td>1</td>
+                    <td>动作书</td>
+                    <td>sasdsada123</td>
+                    <td>
+                        <button type="button" class="layui-btn layui-btn-xs aub">修改</button>
+                        <button type="button" class="layui-btn layui-btn-xs layui-btn-danger removeBtn">删除</button>
+                    </td>
+                </tr> -->
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<script type="text/html" id="tem">
+ <!-- 弹窗 -->
+<div>
+    <form class="layui-form" action="">
+        <input type="hidden" name="id" value="">
+        <div class="layui-form-item">
+            <label class="layui-form-label">分类名称</label>
+            <div class="layui-input-block">
+                <input type="text" name="title" required lay-verify="required" placeholder="请输入分类名称" autocomplete="off"
+                    class="layui-input typeName">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">分类别名</label>
+            <div class="layui-input-block">
+                <input type="text" name="title" required lay-verify="required" placeholder="请输入分类别名" autocomplete="off"
+                    class="layui-input typeAlias">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit="" lay-filter="formDemo">确认{{str}}</button>
+                {{if bol}}
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                {{/if}}
+            </div>
+        </div>
+    </form>
+</div>
+</script>
+
+<!-- 文章列表模板 -->
+<script type="text/html" id="table_tem">
+{{each data}}
+    {{if $value.is_delete==1}}
+            layer.msg("已删除");
+        {{else}}
+        <tr>
+            <td>{{$value.Id}}</td>
+            <td>{{$value.name}}</td>
+            <td>{{$value.alias}}</td>
+            <td>
+                <button type="button" class="layui-btn layui-btn-xs aub">修改</button>
+                <button type="button" class="layui-btn layui-btn-xs layui-btn-danger removeBtn">删除</button>
+            </td>
+        </tr>
+    {{/if}}
+{{/each}}
+</script>

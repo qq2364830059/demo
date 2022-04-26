@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+.war {
+    width           : 100%;
+    height          : 100vh;
+    background-image: url(../img/login_bg.jpg);
+    background-size : cover;
+
+    .content_login {
+
+        // 登录盒子
+        .fixed_box {
+            width           : 400px;
+            height          : 310px;
+            position        : fixed;
+            top             : 50%;
+            left            : 50%;
+            transform       : translate(-50%, -50%);
+            background-color: white;
+            text-align      : center;
+            padding         : 0 30px;
+            box-sizing      : border-box;
+
+            h1 {
+                line-height: 60px;
+            }
+
+            // 表单
+            .login_mq,
+            .login_mq2 {
+
+                .layui-form-item {
+
+                    // 字体图标
+                    .layui-icon-username,
+                    .layui-icon-password {
+                        position : absolute;
+                        top      : 50%;
+                        left     : 10px;
+                        transform: translate(0, -50%);
+                    }
+
+                    // 输入框
+                    .layui-input {
+                        padding-left: 30px;
+                    }
+
+                    // 按钮
+                    .layui-btn-normal {
+                        width: 100%;
+                    }
+
+
+                }
+
+                .txt_box {
+                    text-align: left;
+
+                    .txt {
+                        color      : #333;
+                        font-size  : 12px;
+                        cursor     : pointer;
+                        user-select: none;
+
+                        &:hover {
+                            color: #777;
+                        }
+                    }
+                }
+            }
+
+            // 注册
+            .login_mq2 {
+                display: none;
+            }
+        }
+    }
+}
